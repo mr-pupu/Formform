@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.typeform.ui.MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+
+        <Button
+            android:id="@+id/button_singlechoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:text="@string/type_singlechoice" />
+
+        <Button
+            android:id="@+id/button_singlechoice_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button_singlechoice"
+            android:text="@string/type_singlechoice_txt" />
+
+        <Button
+            android:id="@+id/button_multichoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button_singlechoice_txt"
+            android:text="@string/type_multichoice" />
+
+        <Button
+            android:id="@+id/button_multichoice_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button_multichoice"
+            android:text="@string/type_multichoice_txt" />
+
+        <Button
+            android:id="@+id/button_singleform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button_multichoice_txt"
+            android:text="@string/type_singleform" />
+    </RelativeLayout>
+
+</FrameLayout>

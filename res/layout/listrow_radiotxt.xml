@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dip" >
+
+    <TextView
+        android:id="@+id/textValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/radioButton1"
+        android:layout_alignTop="@+id/textContent"
+        android:text="@string/chkbox"
+        android:layout_alignParentRight="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/numb"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/textContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/textNumber"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:hint="@string/txtvw"
+        android:inputType="text"
+        android:maxLines="3"
+        android:maxWidth="225dp"
+        android:textColor="@android:color/background_dark"
+        />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textValue"
+        android:button="@drawable/custom_radio_button" />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TypeForm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="type_singlechoice">Single Choice</string>
+    <string name="type_singlechoice_txt">Single Choice and Txt</string>
+    <string name="type_multichoice">Multiple Choice</string>
+    <string name="type_multichoice_txt">Multiple Choice and Txt</string>
+    <string name="type_singleform">Single Form</string>
+    <string name="chkbox">Chkbx</string>
+    <string name="txtval">Value</string>
+    <string name="txtvw">Txt</string>
+     <string name="numb">1</string>
+    <string name="button_next">Next</string>
+    <string name="button_save">Save</string>
+    <string name="txtQuestion">Pertanyaan yang ditanyakan lebih sesuai dengan jawaban ? </string>
+
+</resources>
